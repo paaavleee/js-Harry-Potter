@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#characters-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: blue;
+    padding: 30px;
+    margin-top: 80px;
+}
+
+
+.characters-main-flex{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.characters-img-inf{
+    width: 30%;
+    height: 250px;
+    object-fit:contain;
+}
+.characters-info{
+    display: flex;
+    flex-direction: column;
+}
+.show-info{
+    background-color: greenyellow;
+    padding: 5px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.delete-card{
+    padding: 5px;
+    margin-top: 70px;
+    cursor: pointer;
+    background-color: red;
+}
+.characters-name{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.characters-house{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.actor-name {
+	font-size: 22px;
+	opacity: 0;
+}
+.actor-name.active{
+    opacity: 1;
+}
