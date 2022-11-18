@@ -61,7 +61,7 @@
     opacity: 1;
 }
 @media (max-width: 768px) {
-	.characters-list {
+	#characters-list {
 		grid-template-columns: 1fr;
 	}
 	.characters-main-flex {
