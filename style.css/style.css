@@ -60,3 +60,20 @@
 .actor-name.active{
     opacity: 1;
 }
+@media (max-width: 768px) {
+	.characters-list {
+		grid-template-columns: 1fr;
+	}
+	.characters-main-flex {
+		flex-direction: column-reverse;
+		justify-content: center;
+	}
+	.char-card img {
+		width: 100%;
+		height: 300px;
+		margin-bottom: 20px;
+	}
+	.btns {
+		margin-top: 20px;
+	}
+}
